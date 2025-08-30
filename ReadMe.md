@@ -32,4 +32,6 @@ A comprehensive setup for customizing GitHub Copilot behavior with specialized i
 ## References 
 [Github Official Documentation to configure custom instructions for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions)
 
-**Disclaimer**: Portions of this project were created or refined with the assistance of Generative AI tools. All outputs have been reviewed and validated by the maintainer.
+
+## Disclaimer
+Portions of this project were created or refined with the assistance of Generative AI tools. All outputs have been reviewed and validated by the maintainer.
