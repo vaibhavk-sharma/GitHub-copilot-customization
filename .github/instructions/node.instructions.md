@@ -1,5 +1,5 @@
 ---
-applyTo: "backend/**/*.js"
+applyTo: "backend/**/*.{js,ts}"
 ---
 
 # GitHub Copilot Node.js Instructions
@@ -17,8 +17,13 @@ applyTo: "backend/**/*.js"
 - Use **semicolons** at the end of all statements.
 - Use **single quotes** for all strings.
 - Use **arrow functions** for callbacks and middleware.
-- Use consistent error handling (`try/catch` or async error wrappers).
 - Structure Express routes clearly and modularly (e.g., `routes/`, `controllers/`, `services/`).
+- Keep functions **small and single-responsibility**.
+- Use **dependency injection** patterns for better testability.
+- Use **TypeScript** whenever possible, with explicit type definitions.
+- Prefer `import` / `export` ES Modules syntax instead of `require`.
+- Use **async/await** for asynchronous code, never raw `.then()` chains.
+- Always handle async operations with **try/catch** for error safety.
 
 ## Folder Conventions
 
@@ -33,8 +38,19 @@ applyTo: "backend/**/*.js"
 - Always validate user input using middleware or libraries like `Joi` or `Zod`.
 - Use status codes appropriately (e.g., `200`, `201`, `400`, `404`, `500`).
 
+## Environment & Config
+- Use **dotenv** or equivalent for environment variables.
+- Never hardcode secrets, API keys, or DB credentials.
+- Default configs should be safe for production.
+
 ## PostgreSQL
 
 - Store SQL scripts or schema migrations under `/db`.
 - Prefer parameterized queries to prevent SQL injection.
 - Use meaningful table and column names without prefixes like `tbl_`.
+
+## Code Quality
+- Write **JSDoc/TSDoc comments** for functions and APIs.
+- Avoid unused imports, variables, or dead code.
+- Follow **consistent naming** conventions (`camelCase` for variables, `PascalCase` for classes).
+

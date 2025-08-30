@@ -4,6 +4,18 @@
 
 This is a full-stack web application that allows users to manage their tasks and to-do lists. It is built with a **React frontend**, **Node.js backend (Express)**, and uses **PostgreSQL** as the relational database.
 
+Always generate code that follows these conventions.
+
+---
+
+## General Rules
+- Use **TypeScript** consistently across frontend and backend.
+- Prefer **ES Modules** (`import/export`) instead of CommonJS (`require`).
+- Write **clear JSDoc/TSDoc comments** for all exported functions, APIs, and components.
+- Ensure **error handling** and **input validation** in backend code.
+- Avoid unused imports, variables, or dead code.
+- Follow **security best practices** (sanitize input, prevent SQL injection, protect secrets).
+
 ---
 
 ## Folder Structure
