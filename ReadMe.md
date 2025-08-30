@@ -31,3 +31,5 @@ A comprehensive setup for customizing GitHub Copilot behavior with specialized i
 
 ## References 
 [Github Official Documentation to configure custom instructions for GitHub Copilot](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions)
+
+**Note**: Sample generation has been assisted by Generative AI.
