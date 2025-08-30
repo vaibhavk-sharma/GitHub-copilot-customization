@@ -1,6 +1,6 @@
 # GitHub Copilot Customization
 
-A comprehensive setup for customizing GitHub Copilot behavior with specialized instructions for a full-stack web application using React, Node.js, and PostgreSQL.
+A comprehensive setup for customizing GitHub Copilot behavior with specialized instructions for a full-stack web application using React and Node.js.
 
 ## Project Structure
 
